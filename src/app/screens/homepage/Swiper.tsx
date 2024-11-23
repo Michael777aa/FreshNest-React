@@ -48,7 +48,6 @@ export default function ProductSwiper({
           modules={[Navigation, Autoplay]}
           spaceBetween={10}
           slidesPerView={4}
-          loop={true}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
