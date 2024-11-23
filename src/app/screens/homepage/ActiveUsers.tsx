@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { createSelector } from "reselect";
 import { serverApi } from "../../../lib/config";
 import { Member } from "../../../lib/types/member";
-import { retrieveTopUsers } from "./selector";
+import { retrieveTopUsers } from "../homepage/selector";
 
 const topUsersRetriever = createSelector(retrieveTopUsers, (activeUsers) => ({
   activeUsers,

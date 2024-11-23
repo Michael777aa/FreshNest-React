@@ -4,7 +4,7 @@ import Footer from "./components/footer";
 import HomeNavbar from "./components/headers/HomeNavbar";
 import OtherNavbar from "./components/headers/OtherNavbar";
 import HelpPage from "./screens/helpPage";
-import HomePage from "./screens/Homepage";
+import HomePage from "./screens/homepage";
 import ProductsPage from "./screens/productsPage";
 import UserPage from "./screens/userPage";
 import useBasket from "./hooks/useBasket";

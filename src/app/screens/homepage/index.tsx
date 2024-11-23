@@ -7,12 +7,12 @@ import MemberService from "../../services/MemberService";
 import { useDispatch } from "react-redux";
 import { Dispatch } from "@reduxjs/toolkit";
 import { setTopUsers } from "./slice";
-import Shop from "./Shop";
-import Advertisement from "./Advertisement";
-import ActiveUsers from "./ActiveUsers";
-import Events from "./Events";
-import Satisfaction from "./Satisfaction";
-import Statistics from "./Statistics";
+import Shop from "../homepage/Shop";
+import Advertisement from "../homepage/Advertisement";
+import ActiveUsers from "../homepage/ActiveUsers";
+import Events from "../homepage/Events";
+import Satisfaction from "../homepage/Satisfaction";
+import Statistics from "../homepage/Statistics";
 interface ProductsPageProps {
   onAdd: (item: CartItem) => void;
 }
