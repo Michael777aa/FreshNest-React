@@ -32,7 +32,6 @@ export default function ProductSwiper({
       <h1 className="hot-sales">HOT sales</h1>
 
       <Stack className="product-wrapper">
-        {/* Custom navigation buttons */}
         <Box ref={prevRef} className="prev-button">
           <ArrowBackIcon className="icon" />
         </Box>
