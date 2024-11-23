@@ -25,7 +25,7 @@ import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import moment from "moment";
 //@ts-ignore
 import ProductSwiper from "./Swiper";
-import { setProducts } from "../Homepage/slice";
+import { setProducts } from "./slice";
 import { retrieveProducts } from "./selector";
 
 const StyledButton = styled(Button)(({ theme }) => ({
